@@ -1,0 +1,36 @@
+.progress-bar-large {
+  width: 280px;
+  --height: 24px;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  
+}
+
+.progress-track {
+  background-color: #ccc;
+  width: var(--width);
+  height: var(--height);
+  border-radius: 12px;
+}
+
+.progress-fill {
+  background-color: #007bff;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.progress-text {
+  font-size: 14px;
+  color: #333;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.eita{
+  background: linear-gradient(180deg, #1765DB 0%, #0BC1E0 74.48%);
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
